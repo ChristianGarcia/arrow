@@ -75,7 +75,7 @@ Add the dependencies into the project's `build.gradle`:
 ##### Λrrow Core
 
 ```groovy
-def arrow_version = "1.0.1"
+def arrow_version = "1.1.0"
 dependencies {
     implementation "io.arrow-kt:arrow-core:$arrow_version"
 }
@@ -86,7 +86,7 @@ dependencies {
 ```groovy
 apply plugin: 'kotlin-kapt'
 
-def arrow_version = "1.0.1"
+def arrow_version = "1.1.0"
 dependencies {
     implementation "io.arrow-kt:arrow-optics:$arrow_version"
     kapt "io.arrow-kt:arrow-meta:$arrow_version"
@@ -96,7 +96,7 @@ dependencies {
 ##### Λrrow Core + Λrrow Fx
 
 ```groovy
-def arrow_version = "1.0.1"
+def arrow_version = "1.1.0"
 dependencies {
     implementation "io.arrow-kt:arrow-fx-coroutines:$arrow_version"
 }
@@ -124,7 +124,7 @@ following properties:
 ```xml
 <properties>
     <kotlin.version>1.5.31</kotlin.version>
-    <arrow.version>1.0.1</arrow.version>
+    <arrow.version>1.1.0</arrow.version>
 </properties>
 ```
 
@@ -212,7 +212,7 @@ To avoid specifying the Arrow version for every dependency, a BOM file is availa
 
 ## Next development version
 
-If you want to try the latest features, replace `1.0.1` with `1.0.2-SNAPSHOT` and add this
+If you want to try the latest features, replace `1.1.0` with `1.0.2-SNAPSHOT` and add this
 repository:
 
 ```groovy
